@@ -2,6 +2,11 @@
 <view class="container">
   附近的人 --- {{title}}
 </view>
+<view class="classname" style="padding:10px;">
+      <navigator url="../people_nearby/people_nearby?title=附近人3" open-type="redirectTo" style="padding:10px;">页面重定向 附近人3</navigator>      
+      <navigator open-type="navigateBack" style="padding:10px;">返回上一个视图（页面）</navigator>
+      <navigator open-type="reLaunch" style="padding:10px;">重启动</navigator>
+</view>
 <view class="section">
   <scroll-view scroll-y style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
     <view id="green" class="scroll-view-item bc_green" wx:for="{{imgs}}"><image src="{{item}}"></image></view>

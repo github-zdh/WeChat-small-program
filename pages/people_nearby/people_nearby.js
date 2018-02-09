@@ -6,7 +6,11 @@ Page({
     toView: 'red',
     scrollTop: 100,
     title: '哈哈哈',
-    imgs: ["http://file.aijiaeg.com/app/20170829/36ef67e7e8b3cdcadb02f44004961fd1.jpg", "http://file.aijiaeg.com/app/20170829/ae9dd85e3003d6b614b8e79090d4c139.jpg", "http://file.aijiaeg.com/app/20170826/34929677102566bc0527babf8590e8b4.jpg"]
+    imgs: [
+          "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg", 
+          "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg", 
+          "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"
+      ]
   },
   upper: function (e) {
     console.log(e)
