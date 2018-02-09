@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view>
+      <view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+</view>
+<view class="btn-area">
+   <navigator url="../people_nearby/people_nearby?title=附近人1" data-name="value">切换 附近人1</navigator>
+   <navigator url="../people_nearby/people_nearby?title=附近人2">切换 附近人2</navigator>
+   <navigator url="../people_nearby/people_nearby?title=附近人3">切换 附近人3</navigator>
+</view>

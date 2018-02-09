@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view wx:for="{{numList}}" wx:key="item" class="flex-item {{item % 2 == 0 ? 'bc_green' : ''}}">
+          {{item}}
+</view>
+<view class="classname">中间控线</view>
+<view class="classname" style="height:100px;line-height:100px;text-aling:center;" hidden="{{DownLoading}}">加载中...{{DownLoading}}</view>
+<scroll-view scroll-y bindscrolltoupper="upper" style="height:100px" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="red" scroll-top="100">
+     <view wx:for="{{numList}}" wx:key="item" class="flex-item {{item % 2 == 0 ? 'bc_green' : ''}}">
+          {{item}}
+      </view>
+</scroll-view>
+

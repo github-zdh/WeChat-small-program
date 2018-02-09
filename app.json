@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mail_list/mail_list",
+    "pages/find/find",
+    "pages/me/me",
+    "pages/people_nearby/people_nearby"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#cccccc",
+    "enablePullDownRefresh":false,
+    "onReachBottomDistance":50
+  },
+  "tabBar":{
+    "selectedColor": "#3bbaac",
+    "color": "#000",
+    "list": [
+          {
+            "pagePath": "pages/index/index",
+            "selectedIconPath": "icon/001.png",
+            "iconPath": "icon/001.png",
+            "text": "首页"
+          },
+          {
+            "pagePath": "pages/mail_list/mail_list",
+            "selectedIconPath": "icon/004.png",
+            "iconPath": "icon/004.png",
+            "text": "通讯录"
+          },
+          {
+            "pagePath": "pages/find/find",
+            "selectedIconPath": "icon/003.png",
+            "iconPath": "icon/003.png",
+            "text": "发现"
+          },
+          {
+            "pagePath": "pages/me/me",
+            "selectedIconPath":"icon/002.png",
+            "iconPath":"icon/002.png",
+            "text": "我"
+          }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
